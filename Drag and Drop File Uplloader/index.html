@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-GLhlTQ8iKu1rVpoH+oihL/CrMUM8S+5L5u80+9CD0G1lf/CqF5N2kqc5iKGZHpF5" crossorigin="anonymous">
+    <title>Drag and Drop File Uploader</title>
+</head>
+<body>
+    <div class="uploader-container" id="uploaderContainer">
+        <div class="upload-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+        <div class="upload-text">Drag & Drop files here</div>
+        <input type="file" id="fileInput" multiple>
+    </div>
+
+    <div class="file-list-container">
+        <strong>Uploaded Files:</strong>
+        <div id="fileList" class="file-list"></div>
+    </div>
+</body>
+</html>
